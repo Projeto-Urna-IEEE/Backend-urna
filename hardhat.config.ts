@@ -1,6 +1,8 @@
 import type { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox-mocha-ethers";
-import { configVariable } from "hardhat/config";
+import config from "hardhat/config";
+
+import "@nomicfoundation/hardhat-ignition";
 
 const config: HardhatUserConfig = {
   paths: {
